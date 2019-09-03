@@ -1,24 +1,15 @@
 import React from 'react';
-import logo from './logo.svg';
+import PracticeUseEffect1 from './practice/PracticeUseEffect1';
+import PracticeUseEffect2 from './practice/PracticeUseEffect2';
+import PracticeUseEffect3 from './practice/PracticeUseEffect3';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <PracticeUseEffect1 />
+      <PracticeUseEffect2 />
+      <PracticeUseEffect3 />
     </div>
   );
 }
